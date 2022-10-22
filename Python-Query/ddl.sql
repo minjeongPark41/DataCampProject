@@ -2,3 +2,5 @@
 
 -- DDL (Data Definition Language)
 -- ㄴ 테이블 생성 삭제
+
+CREATE DATABASE test;

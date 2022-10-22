@@ -22,7 +22,7 @@ def open_library():
         
         # DB 연결용 메서드
         connection = pymysql.connect(host='localhost', user='root', password='8584', db='test')
-        # ㄴ 여기서 db='test' 는 ddl.spl에서 CREATE DATABASE 뒤에 써준 테이블 이름 
+        # ㄴ 여기서 db='test' 는 ddl.spl에서 CREATE DATABASE 뒤에 써준 이름 
     
     print(format)
     
