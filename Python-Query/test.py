@@ -25,6 +25,9 @@ def open_library():
         # ㄴ 여기서 db='test' 는 ddl.spl에서 CREATE DATABASE 뒤에 써준 이름 
         # print(connection) -> <pymysql.connections.Connection object at 0x0000020AE045E650>. 연결된 것!
         
+        cursor = connection.cursor()
+        # db를 하나하나 읽어내는 것. 자바 db 연결에서 따지자면 rs.next() 함수. 파이썬에서는 이렇게 간단히 나타낼 수 있다.
+        
     finally:
         pass
     
