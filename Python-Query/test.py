@@ -28,6 +28,9 @@ def open_library():
         cursor = connection.cursor()
         # db를 하나하나 읽어내는 것. 자바 db 연결에서 따지자면 rs.next() 함수. 파이썬에서는 이렇게 간단히 나타낼 수 있다.
         
+        ### executing program
+        action = input(format) # act by putting number
+        
     finally:
         pass
     
