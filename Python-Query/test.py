@@ -31,6 +31,14 @@ def open_library():
         ### executing program
         action = input(format) # act by putting number
         
+        # match - case (if - else 대신에 사용한 것)
+        match action:
+            case '1':
+                print("전체 User 조회")
+                
+                # 함수로 db에서 정보 가지고 오기
+                find_users(connection, cursor) # 이 함수 있는 곳에 가서 db를 가지고 와~~!
+        
     finally:
         pass
     
