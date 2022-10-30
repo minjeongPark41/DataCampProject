@@ -10,3 +10,13 @@ import pymysql
     rent_free_date : The day person can borrow books 'again' after delay of renting books
     rentable : status whether person can borrow or not
 '''
+
+class User:
+    def __init__(self, user_id, course_name, name, current_rented_books, rent_free_date, rentable):
+        self.user_id = user_id
+        self.course_name = course_name
+        self.name = name
+        self.current_rented_books = current_rented_books
+        self.rent_free_date = rent_free_date
+        self.rentable = rentable
+        
