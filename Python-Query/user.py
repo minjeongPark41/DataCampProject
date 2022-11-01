@@ -20,3 +20,6 @@ class User:
         self.rent_free_date = rent_free_date
         self.rentable = rentable
         
+new_user = User(1, 'da', 'abc', 0, '2022', 'able')
+print(new_user)
+print(new_user.course_name)
