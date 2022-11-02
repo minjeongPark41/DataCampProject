@@ -19,7 +19,14 @@ class User:
         self.current_rented_books = current_rented_books
         self.rent_free_date = rent_free_date
         self.rentable = rentable
+    
+    def __str__(self):
+        return f'{self.user_id, self.course_name, self.name, self.current_rented_books, self.rent_free_date, self.rentable}'
         
-new_user = User(1, 'da', 'abc', 0, '2022', 'able')
-print(new_user)
-print(new_user.course_name)
+# new_user = User(1, 'da', 'abc', 0, '2022', 'able')
+# print(new_user)
+# print(new_user.course_name)
+
+# test.py 단에서 '전체 User 정보 조회' 할 때의 함수
+def find_users(connection, cursor):
+    print("bring and find whole User data from DB")
