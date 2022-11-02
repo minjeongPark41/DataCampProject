@@ -1,3 +1,6 @@
+from user import *
+
+
 # 파이썬으로 DB 연결해서 가지고 오기
 
 import pymysql
