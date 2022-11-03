@@ -41,6 +41,9 @@ def open_library():
                 
                 # 함수로 db에서 정보 가지고 오기
                 find_users(connection, cursor) # 이 함수 있는 곳에 가서 db를 가지고 와~~!
+
+            case '2':
+                print("User 등록")
         
     finally:
         pass
