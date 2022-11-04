@@ -30,3 +30,7 @@ class User:
 # test.py 단에서 '전체 User 정보 조회' 할 때의 함수
 def find_users(connection, cursor):
     print("bring and find whole User data from DB")
+    
+    # db에서 전체 user 데이터를 불러와서 조회
+    try:
+        sql = 'SELECT * FROM users'
