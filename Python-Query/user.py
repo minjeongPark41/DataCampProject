@@ -34,3 +34,5 @@ def find_users(connection, cursor):
     # db에서 전체 user 데이터를 불러와서 조회
     try:
         sql = 'SELECT * FROM users'
+        cursor.excute(sql) # 쿼리 진행시켜
+        data = cursor.fetchall() # 그 결과를 뱉어내
