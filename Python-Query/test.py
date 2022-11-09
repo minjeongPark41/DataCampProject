@@ -44,6 +44,9 @@ def open_library():
 
             case '2':
                 print("User 등록")
+                
+                # user 등록하기
+                register_user(connection, cursor)
         
     finally:
         pass
