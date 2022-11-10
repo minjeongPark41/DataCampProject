@@ -40,3 +40,7 @@ def find_users(connection, cursor):
     except pymysql.Error as error:
         error_code, message = error.args
         print("에러들", error_code, message)
+        
+# User 회원가입 - insert
+def register_user(conn, cursor):
+    
