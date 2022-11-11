@@ -43,4 +43,6 @@ def find_users(connection, cursor):
         
 # User 회원가입 - insert
 def register_user(conn, cursor):
-    
+    format = '''
+        user_id, 기수명, 이름을 ,로 구분하여 입력: 
+    '''
