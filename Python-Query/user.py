@@ -46,3 +46,5 @@ def register_user(conn, cursor):
     format = '''
         user_id, 기수명, 이름을 ,로 구분하여 입력: 
     '''
+    
+    user_id, course_name, name = input(format).split(',')
