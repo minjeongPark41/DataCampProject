@@ -48,3 +48,6 @@ def register_user(conn, cursor):
     '''
     
     user_id, course_name, name = input(format).split(',')
+    # user_id, 기수명, 이름을 ,로 구분하여 입력: 이라고 terminal에 나타나서 입력하게 됨
+    
+    
