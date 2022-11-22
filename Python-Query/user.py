@@ -54,4 +54,5 @@ def register_user(conn, cursor):
         sql - INSERT INTO users (user_id, course_name, name) VALUES (%s, %s, %s)'
         # INSERT INTO users VALUES ('u-g-1','AI-13','yoo')
         value = (user_id, course_name, name)
+        cursor.execte(sql, value)
     
