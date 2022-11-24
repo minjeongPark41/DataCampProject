@@ -56,3 +56,5 @@ def register_user(conn, cursor):
         value = (user_id, course_name, name)
         cursor.execte(sql, value)
         conn.commit()
+        
+    except pymysql.Error as error:
