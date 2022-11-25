@@ -58,3 +58,4 @@ def register_user(conn, cursor):
         conn.commit()
         
     except pymysql.Error as error:
+        error_code, message = error.args
