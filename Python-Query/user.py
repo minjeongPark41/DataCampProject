@@ -59,3 +59,4 @@ def register_user(conn, cursor):
         
     except pymysql.Error as error:
         error_code, message = error.args
+        print(error_code, message)
