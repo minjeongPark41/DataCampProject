@@ -47,6 +47,9 @@ def open_library():
                 
                 # user 등록하기
                 register_user(connection, cursor)
+                
+            case '3':
+                # 특정 user 정보 조회
         
     finally:
         pass
