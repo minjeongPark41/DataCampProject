@@ -50,6 +50,7 @@ def open_library():
                 
             case '3':
                 # 특정 user 정보 조회
+                find_specific_user(connection, cursor)
         
     finally:
         pass
