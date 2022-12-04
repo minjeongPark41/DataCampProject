@@ -62,3 +62,5 @@ def register_user(conn, cursor):
         print(error_code, message)
         
 # 특정 user 정보 조회
+# 특정한 정보니까 WHERE 들어감. 즉, 매번 바뀌는 동적인 데이터
+
