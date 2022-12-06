@@ -65,3 +65,4 @@ def register_user(conn, cursor):
 # 특정한 정보니까 WHERE 들어감. 즉, 매번 바뀌는 동적인 데이터
 # ㄴ 맵핑하는 코드 필요. 여기서 input()
 
+def find_specific_user(connection, cursor):
