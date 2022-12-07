@@ -66,3 +66,5 @@ def register_user(conn, cursor):
 # ㄴ 맵핑하는 코드 필요. 여기서 input()
 
 def find_specific_user(connection, cursor):
+    user_id = input("'user_id' which you want to input")
+    
