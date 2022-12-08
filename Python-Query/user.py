@@ -68,3 +68,5 @@ def register_user(conn, cursor):
 def find_specific_user(connection, cursor):
     user_id = input("'user_id' which you want to input")
     
+    try:
+        #sql = f'
