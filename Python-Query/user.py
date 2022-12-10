@@ -69,4 +69,4 @@ def find_specific_user(connection, cursor):
     user_id = input("'user_id' which you want to input")
     
     try:
-        #sql = f'
+        #sql = f'SELECT*FROM users WHERE user_id = 
