@@ -72,3 +72,4 @@ def find_specific_user(connection, cursor):
         #sql = f'SELECT*FROM users WHERE user_id = \'{user_id}\'
         # 동적 바인딩 (동적 파라미터로) 
         sql = 'SELECET * FROM users WHERE user_id = %s'
+        value = user_id
