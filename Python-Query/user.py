@@ -74,4 +74,4 @@ def find_specific_user(connection, cursor):
         sql = 'SELECET * FROM users WHERE user_id = %s'
         value = user_id
         
-        cursor.execute(sql, value)
+        cursor.execute(sql, value) # 쿼리 진행
