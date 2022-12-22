@@ -75,4 +75,4 @@ def find_specific_user(connection, cursor):
         value = user_id
         
         cursor.execute(sql, value) # 쿼리 진행
-        data = cursor.fetchone()
+        data = cursor.fetchone() # 결과 뱉어내기
