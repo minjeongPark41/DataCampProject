@@ -78,4 +78,4 @@ def find_specific_user(connection, cursor):
         data = cursor.fetchone() # 결과 뱉어내기. 여기서는 특정 데이터니까 all도 가능하나 one으로 하잣
         #fetch란 - 뭔가를 가져오는 것
         (user_id, course_name, name, current_rented_books, rent_free_date, rentable)
-        print(user_id, course_name, current_rented_books, rent_free_date)
+        print(user_id, course_name, current_rented_books, rent_free_date, rentable)
