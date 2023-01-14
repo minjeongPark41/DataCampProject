@@ -79,3 +79,5 @@ def find_specific_user(connection, cursor):
         #fetch란 - 뭔가를 가져오는 것
         (user_id, course_name, name, current_rented_books, rent_free_date, rentable)
         print(user_id, course_name, current_rented_books, rent_free_date, rentable)
+        
+        found_user = 
